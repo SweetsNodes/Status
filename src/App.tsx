@@ -118,7 +118,7 @@ const App: FC = function () {
                   if (res.status)
                     return (
                       <tr key={res.name}>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">
+                        <td className="border-t-2 border-gray-200 px-4 py-3 text-green-600">
                           {res.name}
                         </td>
                         <td className="border-t-2 border-gray-200 px-4 py-3">
@@ -139,7 +139,7 @@ const App: FC = function () {
                   if (!res.status)
                     return (
                       <tr key={res.name}>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">
+                        <td className="border-t-2 border-gray-200 px-4 py-3 text-red-700">
                           {res.name}
                         </td>
                         <td className="border-t-2 border-gray-200 px-4 py-3">
